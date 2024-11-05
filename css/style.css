@@ -1,0 +1,266 @@
+body{
+padding: 0;
+margin: 0;
+
+}
+.navbar{
+height: 50px;
+width: 96%;
+margin-left: 2%;
+/* border: rgb(255, 246, 230) solid 2px; */
+border: rgb(248, 233, 233) solid 2px;
+border-radius: 5px;
+margin-top: 20px;
+}
+
+.navbar button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150PX;
+    height: 30px;
+    border-color: blue;
+    }
+
+.navbar a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+float: right;
+margin-right: 40px;
+margin-top: 10px;
+
+}
+.navbar a:hover{
+color: blue;
+}
+.cen{
+width: 85%;
+height: 500px;
+margin-left: 10%;
+
+margin-top: 70px;
+display: inline-block;
+
+}
+.cen .subcen1{
+margin-top: 60px;
+width: 340px;
+height: 250px;
+
+display: inline-block;
+
+}
+.cen .subcen1 pre{
+    font-weight: bold;
+}
+.cen .subcen1 .btn .b1,.b2{
+margin-top: 30px;
+    border-radius: 5px;
+    width: 140px;
+height: 30px;
+/* margin-left: -10px; */
+}
+.cen .subcen1 .btn .b1{
+background-color: blue;
+color: white;
+border-color: blue;
+margin-left: 10px;
+
+}
+.cen .subcen1 .btn .b2{
+    background-color: white;
+    color: blue;
+    border-color: black;
+    margin-left: 30px;
+    /* float: right; */
+    
+    }
+
+.cen .subcen2{
+display: inline;
+float: right;
+}
+
+.about{
+width: 86%;
+height: 540px;
+
+margin-left: 6%;
+}
+.about .text span{
+background-color:rgb(127, 226, 227);
+/* width: 100px;
+height: 100px; */
+border-radius: 50%;
+}
+.about .text{
+margin-left: 42px;
+
+}
+.about .text pre{
+font-size: 15px;
+font-weight: bold;
+
+margin-top: 10px;
+}
+.about .cards .p{
+    display: inline-block;
+    background-color: rgba(210, 206, 196, 0.5);
+    width: 30%;
+    height: 180px;
+    margin-left:20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 6px;
+}
+.about .cards .p img{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.about .cards .p h4 ,p{
+    margin-left: 20px;
+    /* margin-top: 35px; */
+}
+
+.comm{
+width:90%;
+height: 250px;
+
+margin-left: 5%;
+}
+h2 span{
+    background-color:rgb(127, 226, 227);
+    
+    border-radius: 50%;
+    margin-left: -1%;
+    
+    }
+.how .start pre{
+margin-left: -15px;
+font-weight: bold;
+}
+.area{
+    width: 500px;
+    height: 150px;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+.how{
+width: 90%;
+height: 1420px;
+
+margin-left: 5%;
+}
+.how .steps{
+width: 80%;
+height: 1290px;
+
+margin-left: 5%;
+}
+.how .steps .numstep{
+width: 120px;
+height: 40px;
+background-color: blue;
+color: white;
+text-align: center;
+border-radius: 13px;
+}
+.how .steps .numstep h3{
+margin-top: 10px;
+padding: 10px;
+}
+.how .steps .description{
+width: 500px;
+height: 160px;
+background-color: rgb(135, 199, 244);
+margin-left: 125px;
+border-radius: 30px;
+margin-top: -45px;
+}
+.how .steps .description h3{
+margin-left: 30px;
+padding-top: 15px;
+}
+.how .steps .description p{
+    margin-left: 30px;
+}
+.media {
+height: 350px;
+
+}
+
+.media .pic1 img{
+border-radius: 30px;
+margin-left: 4%;
+}
+.media .signin{
+width: 400px;
+height: 400px;
+background-color: black;
+border: 2px solid black;
+margin-left: 70%;
+margin-top: -35%;
+
+
+}
+
+.media .signin form label{
+font-style: italic;
+color: white;
+margin-left: 50px;
+margin-top: 30px;
+display: block;
+
+/* padding-top: 20px; */
+}
+
+.media .signin form input{
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 220px;
+    height: 20px;
+    display: block;
+    padding: 6px;
+    
+}
+.media .signin form button{
+    margin-top: 30px;
+    background-color: rgb(46, 105, 147);
+    border: 1px solid rgb(46, 105, 147);
+    color: black;
+    font-size: 17px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+#in3{
+    width: 280px;
+    height: 50px;
+    margin-left:45px ;
+    border-radius: 20px;
+} 
+
+.footer{
+    width: 115%;
+    height: 50px;
+    margin-left: -1%;
+    background-color: rgba(40, 39, 37, 0.726);
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.footer img{
+    margin-left:250px;
+}
+
+
